@@ -1,13 +1,21 @@
-# Ubuntu_Commands
-* 1  google-chrome-stable
-* runing chrome without proper installing
-*  2  history
-* for checking history of all commands which we use in terminal
-* maximum 2000 can show in terminal
-   
-* 4  ping yahoo.com
-* for checking your network is connected or not
-* Lamp installation
+# Ubuntu 14.04 System Admin Commands
+
+
+## Ubuntu_Commands
+
+### Open Chrome from terminal 
+* `google-chrome-stable` --- use that command in the terminal 
+
+
+### History Command overview 
+* We use `history` command to check history of all commands which we use in terminal
+* maximum 2000 history command is store in .bash profile by default
+* `history`
+
+### Network troubleshooting   
+* `ping yahoo.com` ---f or checking your network is connected to internet is not or DNS is working or not
+
+###  Lamp installation
    * 5  sudo apt-get update
    * 6  sudo apt-get install apache2
    * 7  echo "ServerName localhost" | sudo tee /etc/apache2/conf-available/servername.conf
