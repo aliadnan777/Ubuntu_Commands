@@ -116,5 +116,10 @@
   --- lamp installation completed
 *  `nano index.php` ---its a small text editor
 *  `man vi`---linux commands on terminal
+*  ` # ` ---root user 
+* `$` --- ordinary user
+* `sudo su`  ---switching user with bash which is non-log-in shell
+* `sudo su-`  ---This time it is a login shell, so /etc/profile, .profile and .bashrc are executed and
+             you will find yourself in root's home directory with root's environment
 
 
