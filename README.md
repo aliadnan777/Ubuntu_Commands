@@ -16,6 +16,7 @@
 * `ping yahoo.com` ---f or checking your network is connected to internet is not or DNS is working or not
 
 ###  Lamp installation
+
 *   `sudo apt-get update`
 *   `sudo apt-get install apache2`
 *   `echo "ServerName localhost" | sudo tee /etc/apache2/conf-available/servername.conf`
@@ -23,10 +24,10 @@
 * is  a  script  that  enables the specified configuration file
 * within the apache2 configuration
 *   `sudo service apache2 restart`
-*   `curl http://icanhazip.com`
-* The command is designed to work without user interaction
+*   `curl http://icanhazip.com`---The command is designed to work without user interaction
 * 
 ### Sql installation
+
 *   `apt-get install curl`
  
 *   `sudo apt-get install mysql-server php5-mysql`
@@ -48,15 +49,15 @@
   * It has three related functions with regard to text files: 
   * displaying them, combining copies of them and creating new ones
 * lamp installation completed
-*   `nano index.php` (its a small text editor)
-*  `man vi`(linux command on terminal)
-*   `history`
+*  `nano index.php` ---(its a small text editor)
+*  `man vi`---(linux command on terminal)
+*  `history`
 *   
-### installing chrome via terminal
+###  install Chrome from terminal
 *   `sudo apt-get install libxss1 libappindicator1 libindicator7`
 *   `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
 *   `sudo dpkg -i google-chrome*.deb`
- * chrome installation complete
+* chrome installation complete
 
 
 ### wordpress installation
