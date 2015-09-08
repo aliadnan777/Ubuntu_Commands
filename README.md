@@ -13,38 +13,36 @@
 * `history`
 
 ### Network troubleshooting   
-* `ping yahoo.com` ---f or checking your network is connected to internet is not or DNS is working or not
+* `ping yahoo.com` --- for checking your network is connected to internet is not or DNS is working or not
 
 ###  Lamp installation
 
 *   `sudo apt-get update`
 *   `sudo apt-get install apache2`
 *   `echo "ServerName localhost" | sudo tee /etc/apache2/conf-available/servername.conf`
-*   `sudo a2enconf servername`
-* is  a  script  that  enables the specified configuration file
-* within the apache2 configuration
+*   `sudo a2enconf servername` --- is  a  script  that  enables the specified configuration file within the apache2 configuration
 *   `sudo service apache2 restart`
 *   `curl http://icanhazip.com`---The command is designed to work without user interaction
 
-### Sql installation
+### MYSql installation
 
 *   `apt-get install curl`
  
 *   `sudo apt-get install mysql-server php5-mysql`
 *   `sudo mysql_install_db`
 *   `sudo mysql_secure_installation`
+
+### PHP5 Installation
+
 *   `sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt`
 *   `sudo nano /etc/apache2/mods-enabled/dir.conf`
 *   `sudo service apache2 restart`
 *   `cd /var/www/html`
 *   `ls`
-*  `touch index.php`
-  * to create new, empty files
+*  `touch index.php` --- to create new, empty files
 *  `sudo touch index.php`
 *  `ls`
-
-*  `sudo vi index.php`
-  * for editing file in vi editor
+*  `sudo vi index.php` --- for editing file in vi editor
 *  `cat index.php`
   --- It has three related functions with regard to text files: 
   ---displaying them, combining copies of them and creating new ones
@@ -54,14 +52,14 @@
 *  `history`
 
   
-###  install Chrome from terminal
+###  Install Chrome from terminal
 *  `sudo apt-get install libxss1 libappindicator1 libindicator7`
 *  `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
 *  `sudo dpkg -i google-chrome*.deb`
 * chrome installation complete
 
 
-### wordpress installation
+### Wordpress installation
 *   `wget http://wordpress.org/latest.tar.gz`(download wordpress)
 *   `tar -xvzf latest.tar.gz`(unzip)
 *   `sudo mv wordpress/* /var/www/html/`(move folder to required place )
