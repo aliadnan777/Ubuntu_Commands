@@ -25,6 +25,7 @@
    *   `sudo service apache2 restart`
    *   `curl http://icanhazip.com`
      * The command is designed to work without user interaction.
+  ### sql installation
    * `apt-get install curl`
  
    *   `sudo apt-get install mysql-server php5-mysql`
