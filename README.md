@@ -20,13 +20,14 @@
 *   `sudo apt-get install apache2`
 *   `echo "ServerName localhost" | sudo tee /etc/apache2/conf-available/servername.conf`
 *   `sudo a2enconf servername`
-  * is  a  script  that  enables the specified configuration file
-  * within the apache2 configuration
+* is  a  script  that  enables the specified configuration file
+* within the apache2 configuration
 *   `sudo service apache2 restart`
 *   `curl http://icanhazip.com`
-  * The command is designed to work without user interaction.
-### sql installation
-* `apt-get install curl`
+* The command is designed to work without user interaction
+* 
+### Sql installation
+*   `apt-get install curl`
  
 *   `sudo apt-get install mysql-server php5-mysql`
 *   `sudo mysql_install_db`
@@ -50,6 +51,7 @@
 *   `nano index.php` (its a small text editor)
 *  `man vi`(linux command on terminal)
 *   `history`
+*   
 ### installing chrome via terminal
 *   `sudo apt-get install libxss1 libappindicator1 libindicator7`
 *   `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
@@ -83,11 +85,13 @@
 *  ` sudo rm index.html`
 
 *   `sudo /etc/init.d/apache2 stop`(stopping apache server)
- * wordpress installation complete
+* wordpress installation complete
+* 
 ### nginx installation
 *   `sudo apt-get update`
 *   `sudo apt-get install nginx`
-*   `sudo apt-get install php5-fpm php5-mysql`
+*   `sudo apt-get install php5-fpm php5-mysql
+*   `
 ### configuration
 *   `sudo vi /etc/php5/fpm/php.ini`
 *  `readlink -f cgi.fix_pathinfo`
