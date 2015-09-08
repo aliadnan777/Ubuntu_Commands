@@ -42,16 +42,8 @@
 *  `touch index.php` --- to create new, empty files
 *  `sudo touch index.php`
 *  `ls`
-*  `sudo vi index.php` --- for editing file in vi editor
-*  `cat index.php`
-  --- It has three related functions with regard to text files: 
-  ---displaying them, combining copies of them and creating new ones
-  --- lamp installation completed
-*  `nano index.php` ---(its a small text editor)
-*  `man vi`---(linux command on terminal)
-*  `history`
 
-  
+`
 ###  Install Chrome from terminal
 *  `sudo apt-get install libxss1 libappindicator1 libindicator7`
 *  `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
@@ -60,21 +52,21 @@
 
 
 ### Wordpress installation
-*   `wget http://wordpress.org/latest.tar.gz`(download wordpress)
-*   `tar -xvzf latest.tar.gz`(unzip)
-*   `sudo mv wordpress/* /var/www/html/`(move folder to required place )
-*   `mysql -u root -p`(entering in database)
-*   `sudo vi /var/www/html/wp-config.php`(edit file with vi)
-*   `sudo chmod -R 755 /var/www/html/`(running file)
-*   `sudo service apache2 restart`(restarting server)
+*   `wget http://wordpress.org/latest.tar.gz`---download wordpress
+*   `tar -xvzf latest.tar.gz` ---unzip
+*   `sudo mv wordpress/* /var/www/html/`---move folder to required place 
+*   `mysql -u root -p`---entering in database
+*   `sudo vi /var/www/html/wp-config.php`---edit file with vi
+*   `sudo chmod -R 755 /var/www/html/`---running file
+*   `sudo service apache2 restart`---restarting server
 *   `/etc/apache2/sites-available/wordpress.conf`
-*   `sudo rm /var/www/html/wp-config.php`(removing copied file)
-*   `sudo cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php`(copy file with name change)
+*   `sudo rm /var/www/html/wp-config.php`---removing copied file
+*   `sudo cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php`---copy file with name change
 
-*   `ls` (checking list)
+*   `ls` ---checking list
 *   `sudo service apache2 restart`
 *   `sudo vi /var/www/html/wp-config.php`
-*   `sudo chown -R www-data:www-data /var/www/html/`(changing ownership of specified file)
+*   `sudo chown -R www-data:www-data /var/www/html/`---changing ownership of specified file
 *   `sudo chmod -R 755 /var/www/html/`
 *   `sudo service apache2 restart`
  
@@ -84,7 +76,7 @@
  
 *  ` sudo rm index.html`
 
-*   `sudo /etc/init.d/apache2 stop`(stopping apache server)
+*   `sudo /etc/init.d/apache2 stop`---stopping apache server
    --- wordpress installation complete
 
 
@@ -108,9 +100,21 @@
 *   `sudo rm index.html` 
 *   `mv wordpress /usr/share/nginx/html`
 *   `ls`
-*   `ls /var/www/html`(path of wordpress folder)
+*   `ls /var/www/html`---path of wordpress folder
 *   `cd /var/www`
-*   `sudo cp -r html /usr/share/nginx/html`(copies files recursively of folder to given path )
-*   `cd /usr/share/nginx/html`(change directory where files copied)
+*   `sudo cp -r html /usr/share/nginx/html`---copies files recursively of folder to given path 
+*   `cd /usr/share/nginx/html`---change directory where files copied
 *   `ls`
-*   `sudo rmdir html`(remove html dir)
+*   `sudo rmdir html`---remove html dir
+
+### commonly used commands
+
+*  `sudo vi index.php` --- for editing file in vi editor
+*  `cat index.php`
+  --- It has three related functions with regard to text files: 
+  ---displaying them, combining copies of them and creating new ones
+  --- lamp installation completed
+*  `nano index.php` ---its a small text editor
+*  `man vi`---linux commands on terminal
+
+
