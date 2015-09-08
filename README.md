@@ -40,23 +40,23 @@
 *   `ls`
 *  `touch index.php`
   * to create new, empty files
-*   `sudo touch index.php`
+*  `sudo touch index.php`
 *  `ls`
 
-*   `sudo vi index.php`
+*  `sudo vi index.php`
   * for editing file in vi editor
-*   `cat index.php`
-  * It has three related functions with regard to text files: 
-  * displaying them, combining copies of them and creating new ones
-* lamp installation completed
+*  `cat index.php`
+  --- It has three related functions with regard to text files: 
+  ---displaying them, combining copies of them and creating new ones
+  --- lamp installation completed
 *  `nano index.php` ---(its a small text editor)
 *  `man vi`---(linux command on terminal)
 *  `history`
 *   
 ###  install Chrome from terminal
-*   `sudo apt-get install libxss1 libappindicator1 libindicator7`
-*   `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
-*   `sudo dpkg -i google-chrome*.deb`
+*  `sudo apt-get install libxss1 libappindicator1 libindicator7`
+*  `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
+*  `sudo dpkg -i google-chrome*.deb`
 * chrome installation complete
 
 
@@ -86,13 +86,13 @@
 *  ` sudo rm index.html`
 
 *   `sudo /etc/init.d/apache2 stop`(stopping apache server)
-* wordpress installation complete
+   --- wordpress installation complete
 * 
 ### nginx installation
 *   `sudo apt-get update`
 *   `sudo apt-get install nginx`
-*   `sudo apt-get install php5-fpm php5-mysql
-*   `
+*   `sudo apt-get install php5-fpm php5-mysql`
+*   
 ### configuration
 *   `sudo vi /etc/php5/fpm/php.ini`
 *  `readlink -f cgi.fix_pathinfo`
@@ -111,5 +111,5 @@
 *   `cd /var/www`
 *   `sudo cp -r html /usr/share/nginx/html`(copies files recursively of folder to given path )
 *   `cd /usr/share/nginx/html`(change directory where files copied)
-*  ` ls`
+*   `ls`
 *   `sudo rmdir html`(remove html dir)
