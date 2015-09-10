@@ -107,6 +107,14 @@
 *   `ls`
 *   `sudo rmdir html`---remove html dir
 
+### Virtualbox installation
+
+* download stable version of virtual box for ubuntu 14.04
+* if virtualbox is already install and not working then run following command
+* `sudo apt-get remove virtualbox-\*`
+* then for installation run following
+* `sudo dpkg -i virtualbox-5.0_5.0.4-102546-Ubuntu-trusty_amd64.deb`
+
 ### commonly used commands
 
 *  `sudo vi index.php` --- for editing file in vi editor
