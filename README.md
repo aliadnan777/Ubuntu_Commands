@@ -130,5 +130,5 @@
 * `sudo su-`  ---This time it is a login shell, so /etc/profile, .profile and .bashrc are executed and
              you will find yourself in root's home directory with root's environment
 * `curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'` --- for checking your machine ip address
-* `ps -aux | grep ssh` ---for checking ssh is enable or not
+
 
